@@ -71,17 +71,17 @@ void setup() {
 
 // the loop function runs over and over again forever (tick tock)
 void loop() {
-  digitalWrite(RELAY_1, HIGH);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(RELAY_1, HIGH);   // turn the relay on (HIGH is the voltage level)
   delay(500);                  
-  digitalWrite(RELAY_1, LOW);   // turn the LED off (LOW is the voltage level)
+  digitalWrite(RELAY_1, LOW);   // turn the relay off (LOW is the voltage level)
   delay(500);
-  digitalWrite(RELAY_2, HIGH);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(RELAY_2, HIGH);   // turn the relay on (HIGH is the voltage level)
   delay(500);                  
-  digitalWrite(RELAY_2, LOW);   // turn the LED off (LOW is the voltage level)
+  digitalWrite(RELAY_2, LOW);   // turn the relay off (LOW is the voltage level)
   delay(500);
-  digitalWrite(RELAY_3, HIGH);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(RELAY_3, HIGH);   // turn the relay on (HIGH is the voltage level)
   delay(500);                  
-  digitalWrite(RELAY_3, LOW);   // turn the LED off (LOW is the voltage level)
+  digitalWrite(RELAY_3, LOW);   // turn the relay off (LOW is the voltage level)
   delay(500);
          
 }
