@@ -26,12 +26,12 @@
 #define GPIO_18   2
 #define GPIO_19   24	//PE1
 #define GPIO_20   A7	//PE3
-#define GPIO_21   -1	// Not populated
+#define GPIO_21   20
 #define GPIO_22   A0
 #define GPIO_23   3
 #define GPIO_24   4
 #define GPIO_25   8
-#define GPIO_26   -1	// Not populated
+#define GPIO_26   21
 #define GPIO_27   A1
 
 #endif
